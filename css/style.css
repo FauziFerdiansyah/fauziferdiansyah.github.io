@@ -125,7 +125,7 @@ img {
 /*=================================================================*/
 /*                      TYPOGRAPHY                              
 /*=================================================================*/
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .fauziferdiansyah {
   color: #454360;
   font-family: "Rubik", sans-serif;
   font-weight: 700;
@@ -882,7 +882,7 @@ section.home .intro {
   position: relative;
   z-index: 1;
 }
-section.home .intro h1 {
+section.home .intro .fauziferdiansyah {
   color: #FFF;
   font-size: 36px;
 }
