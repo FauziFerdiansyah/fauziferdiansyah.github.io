@@ -411,11 +411,11 @@ $(function(){
                   '<span class="category">Article</span>'+
                 '</a>'+
                 '<a href="'+dataJson.items[item].link+'" target="_blank">'+
-                  '<img src="'+dataJson.items[item].thumbnail+'" alt="'+dataJson.items[item].title+'" />'+
+                  '<img src="'+dataJson.items[item].thumbnail+'" alt="'+dataJson.items[item].title+'" width="100%" height="100%" />'+
                 '</a>'+
               '</div>'+
               '<div class="details">'+
-                '<h4 class="my-0 title"><a href="'+dataJson.items[item].link+'" target="_blank">'+dataJson.items[item].title+'</a></h4>'+
+                '<h3 class="my-0 title"><a href="'+dataJson.items[item].link+'" target="_blank">'+dataJson.items[item].title+'</a></h3>'+
                 '<ul class="list-inline meta mb-0 mt-2">'+
                   '<li class="list-inline-item">'+dataJson.items[item].pubDate+'</li>'+
                   '<li class="list-inline-item">'+dataJson.items[item].author+'</li>'+

@@ -987,7 +987,7 @@ section.home.light .social-icons li a:hover {
 /*=================================================================*/
 /*                      SKILLS                              
 /*=================================================================*/
-.skill-item .skill-info h4 {
+.skill-item .skill-info h3 {
   font-size: 16px;
   font-weight: 500;
 }
@@ -1306,13 +1306,13 @@ select.portfolio-filter-mobile {
 .blog-item .details {
   padding: 20px;
 }
-.blog-item .details h4.title {
+.blog-item .details h3.title {
   font-size: 20px;
 }
-.blog-item .details h4.title a {
+.blog-item .details h3.title a {
   color: var(--dark);
 }
-.blog-item .details h4.title a:hover {
+.blog-item .details h3.title a:hover {
   color: var(--dacil);
 }
 .blog-item .meta {
@@ -1577,10 +1577,10 @@ body.dark .portfolio-filter li {
 body.dark .portfolio-filter .current {
   color: var(--dacil);
 }
-body.dark .blog-item .details h4.title a {
+body.dark .blog-item .details h3.title a {
   color: #FFF;
 }
-body.dark .blog-item .details h4.title a:hover {
+body.dark .blog-item .details h3.title a:hover {
   color: var(--dacil);
 }
 body.dark .contact-info {
