@@ -529,7 +529,7 @@ header.desktop-header-2 {
   color: #FFF;
   border-right: solid 1px rgba(255, 255, 255, 0.1);
   background: var(--dark);
-  padding: 0px 30px;
+  padding: 0px 33px;
   position: fixed;
   left: 0;
   overflow-y: auto;
@@ -548,6 +548,10 @@ header.desktop-header-2 {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   /* === Vertical Menu === */
+}
+header.desktop-header-2 nav {
+  position: relative;
+  top: calc(100% - 77%);
 }
 header.desktop-header-2.open {
   -webkit-transform: translateX(0);
