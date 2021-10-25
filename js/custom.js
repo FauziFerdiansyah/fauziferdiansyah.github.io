@@ -1,6 +1,5 @@
 $(window).on('load', function() {
     "use strict";
-
     /*=========================================================================
         Preloader
     =========================================================================*/
@@ -37,168 +36,6 @@ $(window).on('load', function() {
       $(this).attr("data-wow-delay", typeof dynamicDelay[index] === 'undefined' ? fallbackValue : dynamicDelay[index] + "ms");
     });
 
-    /*=========================================================================
-     Isotope
-     =========================================================================*/
-    $('.portfolio-filter').on( 'click', 'li', function() {
-        var filterValue = $(this).attr('data-filter');
-        $container.isotope({ filter: filterValue });
-    });
-
-    // change is-checked class on buttons
-    $('.portfolio-filter').each( function( i, buttonGroup ) {
-        var $buttonGroup = $( buttonGroup );
-        $buttonGroup.on( 'click', 'li', function() {
-            $buttonGroup.find('.current').removeClass('current');
-            $( this ).addClass('current');
-        });
-    });
-
-    var $container = $('.portfolio-wrapper');
-    $container.imagesLoaded( function() {
-      $('.portfolio-wrapper').isotope({
-          // options
-          itemSelector: '[class*="col-"]',
-          percentPosition: true,
-          masonry: {
-              // use element for option
-              columnWidth: '[class*="col-"]'
-          }
-      });
-    });
-
-    var bolbyPopup = function(){
-      /*=========================================================================
-              Magnific Popup
-      =========================================================================*/
-      $('.work-image').magnificPopup({
-        type: 'image',
-        closeBtnInside: false,
-        mainClass: 'my-mfp-zoom-in',
-      });
-
-      $('.work-content').magnificPopup({
-        type: 'inline',
-        fixedContentPos: true,
-        fixedBgPos: true,
-        overflowY: 'auto',
-        closeBtnInside: false,
-        preloader: false,
-        midClick: true,
-        removalDelay: 300,
-        mainClass: 'my-mfp-zoom-in'
-      });
-
-      $('.work-video').magnificPopup({
-        type: 'iframe',
-        closeBtnInside: false,
-        iframe: {
-            markup: '<div class="mfp-iframe-scaler">'+
-                      '<div class="mfp-close"></div>'+
-                      '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
-                    '</div>', 
-
-            patterns: {
-              youtube: {
-                index: 'youtube.com/',
-
-                id: 'v=',
-
-                src: 'https://www.youtube.com/embed/%id%?autoplay=1'
-              },
-              vimeo: {
-                index: 'vimeo.com/',
-                id: '/',
-                src: '//player.vimeo.com/video/%id%?autoplay=1'
-              },
-              gmaps: {
-                index: '//maps.google.',
-                src: '%id%&output=embed'
-              }
-
-            },
-
-            srcAction: 'iframe_src',
-          }
-      });
-
-      $('.gallery-link').on('click', function () {
-          $(this).next().magnificPopup('open');
-      });
-
-      $('.gallery').each(function () {
-          $(this).magnificPopup({
-              delegate: 'a',
-              type: 'image',
-              closeBtnInside: false,
-              gallery: {
-                  enabled: true,
-                  navigateByImgClick: true
-              },
-              fixedContentPos: false,
-              mainClass: 'my-mfp-zoom-in',
-          });
-      });
-    }
-
-    bolbyPopup();
-
-    /*=========================================================================
-     Infinite Scroll
-     =========================================================================*/
-    var curPage = 1;
-    var pagesNum = $(".portfolio-pagination").find("li a:last").text();   // Number of pages
-
-    $container.infinitescroll({
-        itemSelector: '.grid-item',
-        nextSelector: '.portfolio-pagination li a',
-        navSelector: '.portfolio-pagination',
-        extraScrollPx: 0,
-        bufferPx: 0,
-        maxPage: 6,
-        loading: {
-            finishedMsg: "No more works",
-            msgText: '',
-            speed: 'slow',
-            selector: '.load-more',
-        }
-    },
-    // trigger Masonry as a callback
-    function( newElements ) {
-
-      var $newElems = $( newElements );
-      $newElems.imagesLoaded(function(){  
-        $newElems.animate({ opacity: 1 });
-        $container.isotope( 'appended', $newElems );
-      });
-
-      bolbyPopup();
-
-      // Check last page
-      curPage++;
-      if(curPage == pagesNum) {
-        $( '.load-more' ).remove();
-      }
-
-    });
-
-    $container.infinitescroll( 'unbind' );
-
-    $( '.load-more .btn' ).on('click', function() {
-      $container.infinitescroll( 'retrieve' );
-      // display loading icon
-      $( '.load-more .btn i' ).css('display', 'inline-block');
-      $( '.load-more .btn i' ).addClass('fa-spin');
-
-      $(document).ajaxStop(function () {
-        setTimeout(function(){
-               // hide loading icon
-          $( '.load-more .btn i' ).hide();
-        }, 1000);
-      });
-      return false;
-    });
-
     /* ======= Mobile Filter ======= */
 
     // bind filter on select change
@@ -222,21 +59,6 @@ $(window).on('load', function() {
         return name.match( /ium$/ );
       }
     };
-});
-
-$(document).on('ready', function() {
-    "use strict";
-
-    /*=========================================================================
-                Slick Slider
-    =========================================================================*/
-    $('.testimonials-wrapper').slick({
-      dots: true,
-      arrows: false,
-      autoplay: true,
-      autoplaySpeed: 3000
-    });
-
 });
 
 $(function(){
@@ -363,7 +185,7 @@ $(function(){
      }
 
     /*=========================================================================
-            Main Menu
+    Main Menu
     =========================================================================*/
     $( ".submenu" ).before( '<i class="ion-md-add switch"></i>' );
 
@@ -374,7 +196,7 @@ $(function(){
     });
 
     /*=========================================================================
-            Scroll to Top
+    Scroll to Top
     =========================================================================*/
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 350) {        // If page is scrolled more than 50px
@@ -390,15 +212,14 @@ $(function(){
         }, 400);
     });
 
-    // GET POST FROM MEDIUM 
+    /*=========================================================================
+    Get Medium Post
+    =========================================================================*/
     const MediumFetch = async (name) => {
-      console.log('xxxxxxxxxxxxxxxxxxxx');
       const res = await fetch(
         'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40fauzifrd&api_key=htlxn3gibhchbry1v4hxskm2fszhd5ov05yg3xxz'
       );
       const dataJson = await res.json();
-      // console.log(dataJson.items);
-
       var index = 0;
       for(let item in dataJson.items) {
         index += 1;
@@ -428,7 +249,6 @@ $(function(){
           return false;
         }
       }
-      
     };
     MediumFetch();
 
