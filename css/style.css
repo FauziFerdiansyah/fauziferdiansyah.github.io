@@ -537,7 +537,6 @@ header.desktop-header-2 {
   height: 100vh;
   min-height: 100vh;
   top: 0;
-  
   width: 90px;
   z-index: 1;
   -webkit-transform: translateX(0);
@@ -851,7 +850,7 @@ main.content.open {
 }
 
 main.content-2 {
-  margin-left: 110px;
+  margin-left: 90px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
