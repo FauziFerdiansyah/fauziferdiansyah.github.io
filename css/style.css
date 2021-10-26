@@ -1,11 +1,5 @@
 @charset "UTF-8";
 /*
-Template Name: Bolby
-Version: 1.0
-Author: PxlSolutions
-Author URI: http://themeforest.net/user/pxlsolutions
-Description: Portfolio/CV/Resume HTML Template
-
 [TABLE OF CONTENTS]
 
 01. Base
@@ -53,24 +47,6 @@ Description: Portfolio/CV/Resume HTML Template
 /*=================================================================*/
 /*                      BASE                              
 /*=================================================================*/
-/*:root {
-  --dark: #0b0c1b;
-  --semi-dark: #1a1b2e;
-  --semi-dark-2: #212235;
-  --hero: #0060fe;
-  --gold: #FFB830;
-  --taro: #4d4d5a;
-  --dacil: #0060fe;
-}*/
-/*:root {
-  --dark: #141a2f;
-  --semi-dark: #202646;
-  --semi-dark-2: #525c72;
-  --hero: #0576eb;
-  --gold: #ffc545;
-  --taro: #636697;
-  --dacil: #10ca9b;
-}*/
 :root {
   --dark: #0b0c1b;
   --semi-dark: #13172c;

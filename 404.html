@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#0b0c1b">
+    <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0b0c1b">
+
+    <title>404 - Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap";
+        @import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+
+        body {
+          font-family: "Montserrat", sans-serif;
+          text-align: center;
+          margin: 0px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+          font-family: "Montserrat", sans-serif; }
+
+        h1 {
+          background: #fff;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          font-family: "Fredoka One", cursive;
+          font-size: 185px;
+          font-weight: 700;
+          flex-flow: row wrap;
+          align-content: center;
+          justify-content: center;
+          /*text-shadow: 6px 5px 7px #c7badc;*/
+          letter-spacing: 5px; }
+          h1 span {
+            width: 100%;
+            position: relative; }
+            h1 span:before {
+              background: linear-gradient(45deg, #fc5c7d, #6a82fb, #fc5c7d);
+              width: 100%;
+              height: 100%;
+              display: block;
+              position: absolute;
+              content: "";
+              mix-blend-mode: screen; }
+
+        .loader-wrapper {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            background-color: #ffffff;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            position: fixed;
+            z-index: 9;
+            top: 0; 
+        }
+        .loader {
+            border: 16px solid #636697;
+            border-radius: 50%;
+            border-top: 16px double #636697;
+            border-bottom: 16px double #636697;
+            width: 80px;
+            height: 80px;
+            -webkit-animation: spin 2s linear infinite;
+            /* Safari */
+            animation: spin 2s linear infinite; 
+        }
+        @-webkit-keyframes spin {
+        0% {
+        -webkit-transform: rotate(0deg); }
+        100% {
+        -webkit-transform: rotate(360deg); } }
+        @keyframes spin {
+        0% {
+        transform: rotate(0deg); }
+        100% {
+        transform: rotate(360deg); } }
+        /*==============
+        [01] Page css
+        =================*/
+        .page-section .content-detail {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .page-section .content-detail .sub-title, .page-section .content-detail .detail-text {
+        display: block;
+        color: #777;
+        text-align: center; }
+        .page-section .content-detail .sub-title {
+        margin-bottom: 15px;
+        font-weight: 600;
+        font-size: 30px;
+        color: #555; }
+        .page-section .content-detail .global-title {
+        display: block;
+        color: #5bc86d;
+        font-size: 150px;
+        font-weight: 800; }
+        .page-section .content-detail .global-title span {
+          animation: animateblur 1s linear forwards; }
+          .page-section .content-detail .global-title span:nth-child(1) {
+            animation-delay: 1s; }
+          .page-section .content-detail .global-title span:nth-child(2) {
+            animation-delay: 2s; }
+          .page-section .content-detail .global-title span:nth-child(3) {
+            animation-delay: 3s; }
+        @keyframes animateblur {
+        0% {
+        opacity: 0;
+        filter: blur(10px); }
+        100% {
+        opacity: 1;
+        filter: blur(0px); } }
+        .page-section .content-detail .back-btn {
+        margin-top: 15px; }
+        .page-section .content-detail .back-btn .btn {
+          padding: 8px 15px;
+          color: #fff;
+          border-radius: 30px;
+          font-size: 14px;
+          background: #8d6dbd;
+          box-shadow: 0px 5px 10px #a98ad8;
+          text-decoration: none; }
+          .page-section .content-detail .back-btn .btn:hover {
+            background: #a98ad8;
+            color: #fff;
+            box-shadow: 0px 5px 10px #cab6e8; }
+        .page-section .content-detail .container-txt {
+        width: 415px;
+        height: 250px;
+        top: 0;
+        left: 0;
+        position: relative; }
+        .page-section .content-detail .container-txt div {
+          display: block;
+          position: absolute; }
+        .page-section .content-detail .container-txt .blobs_1 {
+          background: #c5006b;
+          width: 62px;
+          height: 62px;
+          top: 58px;
+          left: 210px;
+          mix-blend-mode: color;
+          animation: circlemoves 15s ease-in-out infinite alternate; }
+        .page-section .content-detail .container-txt .blobs_2 {
+          background: #ff6c36;
+          width: 50px;
+          height: 40px;
+          top: 155px;
+          left: 230px;
+          mix-blend-mode: color;
+          animation: circlemoves 15s ease-in-out infinite alternate; }
+        .page-section .content-detail .container-txt .blobs_3 {
+          background: #03b903;
+          width: 63px;
+          height: 63px;
+          top: 145px;
+          left: 20px;
+          mix-blend-mode: color;
+          animation: circlemoves 15s ease-in-out infinite alternate; }
+        .page-section .content-detail .container-txt .blobs_4 {
+          background: #900101;
+          width: 95px;
+          height: 95px;
+          top: 115px;
+          left: 100px;
+          mix-blend-mode: color;
+          animation: circlemoves 15s ease-in-out infinite alternate; }
+        .page-section .content-detail .container-txt .blobs_5 {
+          background: #795548;
+          width: 48px;
+          height: 48px;
+          top: 55px;
+          left: 70px;
+          mix-blend-mode: color;
+          animation: circlemoves 15s ease-in-out infinite alternate; }
+        .page-section .content-detail .container-txt .blobs_6 {
+          background: #00b5b5;
+          width: 66px;
+          height: 66px;
+          top: 133px;
+          right: 44px;
+          mix-blend-mode: color;
+          animation: circlemoves 15s ease-in-out infinite alternate; }
+        .page-section .content-detail .container-txt .blobs_7 {
+          background: #ff8c00;
+          width: 52px;
+          height: 52px;
+          top: 25px;
+          left: 336px;
+          mix-blend-mode: color;
+          animation: circlemoves 15s ease-in-out infinite alternate; }
+        @keyframes circlemoves {
+        0% {
+        border-radius: 25% 69% 58% 42% / 52% 72% 65% 56%; }
+        10% {
+        border-radius: 75% 28% 50% 48% / 70% 44% 55% 29%; }
+        20% {
+        border-radius: 47% 53% 29% 67% / 30% 40% 59% 69%; }
+        30% {
+        border-radius: 72% 25% 65% 45% / 33% 63% 33% 65%; }
+        40% {
+        border-radius: 63% 35% 55% 43% / 25% 25% 75% 75%; }
+        50% {
+        border-radius: 35% 63% 73% 33% / 63% 25% 73% 35%; }
+        60% {
+        border-radius: 25% 75% 25% 73% / 75% 53% 45% 25%; }
+        70% {
+        border-radius: 38% 59% 63% 32% / 72% 62% 32% 24%; }
+        80% {
+        border-radius: 53% 44% 36% 62% / 35% 32% 72% 60%; }
+        90% {
+        border-radius: 24% 74% 72% 32% / 40% 49% 49% 60%; }
+        100% {
+        border-radius: 60% 29% 29% 65% / 68% 75% 30% 32%; } }
+
+        @media (max-width: 768px) {
+          .page-section .content-detail {
+            padding: 0 15px; }
+            .page-section .content-detail .global-title {
+              font-size: 120px;
+              font-weight: 700; }
+            .page-section .content-detail .sub-title {
+              font-weight: 500;
+              font-size: 25px; }
+            .page-section .content-detail .detail-text {
+              font-size: 14px; } }
+        @media (max-width: 480px) {
+          .page-section .content-detail .detail-text {
+            padding: 0 15px; }
+          .page-section .content-detail .container-txt {
+            width: 300px;
+            height: 160px; }
+            .page-section .content-detail .container-txt h1 {
+              font-size: 90px;
+              font-weight: 600; }
+            .page-section .content-detail .container-txt .blobs_2, .page-section .content-detail .container-txt .blobs_6 {
+              display: none; }
+            .page-section .content-detail .container-txt .blobs_3 {
+              width: 60px;
+              height: 60px;
+              top: 87px;
+              left: 47px; }
+            .page-section .content-detail .container-txt .blobs_4 {
+              width: 50px;
+              height: 50px;
+              top: 97px;
+              left: 123px; }
+            .page-section .content-detail .container-txt .blobs_5 {
+              width: 30px;
+              height: 30px;
+              top: 39px;
+              left: 70px; }
+            .page-section .content-detail .container-txt .blobs_7 {
+              left: 146px; }
+            .page-section .content-detail .container-txt .sub-title {
+              font-weight: 500;
+              font-size: 22px; } }
+    </style>
+</head>
+<body>
+    <div class="loader-wrapper" id="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <section class="page-section">
+        <div class="full-width-screen">
+            <div class="container-fluid p-0">
+                <div class="content-detail p-0">
+                    <div class="container-txt p-0">
+                        <h1><span>404</span></h1>
+                        <div class="blobs_1"></div>
+                        <div class="blobs_2"></div>
+                        <div class="blobs_3"></div>
+                        <div class="blobs_4"></div>
+                        <div class="blobs_5"></div>
+                        <div class="blobs_6"></div>
+                        <div class="blobs_7"></div>
+                    </div>
+                    <h4 class="sub-title">Oops!</h4>
+
+                    <p class="detail-text">Uh-oh! We couldn't find the page you are looking for.</p> 
+                    <div class="back-btn">
+                        <a href="index.html" class="btn">Check our home page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script>
+(function($){ 
+    "use strict";
+
+    /*========== Loader start ================*/
+    $(window).on('load', function() {
+        $('#loader-wrapper').fadeIn();
+        setTimeout(function() {
+            $('#loader-wrapper').fadeOut();
+        }, 500);
+    });
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+    document.onkeydown = function(e) {
+      if(event.keyCode == 123) {
+         return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+         return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+         return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+         return false;
+      }
+      if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+         return false;
+      }
+    }
+    })(jQuery);
+</script>
+</html>
