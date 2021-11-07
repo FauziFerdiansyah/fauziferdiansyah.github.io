@@ -206,7 +206,7 @@ body .loader-wrapper {
   filter: blur(0.5px);
   z-index: 1;
 }
-.scene .rocket img {
+.scene .rocket svg {
   height: 100px;
   margin-bottom: 5px;
 }
@@ -250,20 +250,24 @@ body .loader-wrapper {
   animation: animateStars linear infinite;
   filter: blur(0.2px);
 }
-html.stop-scrolling::-webkit-scrollbar-track {
-  background-color: var(--dark) !important;
+.scene #counter-rocket {
+  font-size: 12px;
+  left: 15px;
+  position: absolute;
+  top: 55px;
+  color: #0b0806;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-align: center;
+  width: 27px;
 }
-
-html.stop-scrolling::-webkit-scrollbar-thumb {
-  background: var(--dark) !important;
-}
-.fast-rocket {
+.scene .fast-rocket {
   width: 58px;
   height: 50px;
   background: linear-gradient(rgb(243 243 243 / 56%),transparent);
   position: absolute;
   top: -17px;
-  left: 21px;
+  left: 0px;
   text-align: center;
   margin: 0 auto;
   border-radius: 100% 100% 0px 0px;
