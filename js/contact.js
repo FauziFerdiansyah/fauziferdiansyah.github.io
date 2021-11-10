@@ -3,42 +3,45 @@ class ContactForm {
     this.element = el || null;
     this.action = el.action;
     this.fields = Object.keys(el.elements).reduce((obj, key) => {
-      if (key === el.elements[key].id) obj[key] = el.elements[key];
+      if (key === el.elements[key].id && key !== 'btn-reset-form' && key !== 'born') obj[key] = el.elements[key];
       return obj;
     }, {});
-    console.log("Contact Form:", this);
+    //console.log("Contact Form:", this);
   }
 
   init() {
-    this.element.addEventListener("submit", (event) => this.onSubmit(event));
+      this.element.addEventListener("submit", (event) => this.onSubmit(event));
   }
 
   onSubmit(event) {
     event.preventDefault();
-    this.element.classList.remove("contact-form--errors");
-    this.element.classList.remove("contact-form--sent");
-    this.element.classList.add("contact-form--loading");
-    this.sendFormData(this.getFormData())
-      .then((response) => {
-        if (response.status === 200) {
-          return response.json().then((res) => this.onSent(res));
-        } else {
-          throw "An error occured while submitting the form";
-        }
-      })
-      .catch((err) => this.onError(err));
+    let x = document.querySelector(".born").value;
+    if ( x == "" || x == null ){ // it's a hu-mon
+      this.element.classList.remove("contact-form--errors");
+      this.element.classList.remove("contact-form--sent");
+      this.element.classList.add("contact-form--loading");
+      this.sendFormData(this.getFormData())
+        .then((response) => {
+          if (response.status === 200) {
+            return response.json().then((res) => this.onSent(res));
+          } else {
+            throw "An error occured while submitting the form";
+          }
+        })
+        .catch((err) => this.onError(err));
+    }else{
+      $('#mdlAlert').modal('show');
+      $('#mdl-body-alert').text('Thanks, Message sent successfully');
+      $('#btn-reset-form').click();
+      return false;
+    }
   }
 
   onSent(response) {
-    if(!$('.chkd-form').is(":checked")){
-        $('#mdlAlert').modal('show')
-        console.log("Sent:", response.success);
-        $('#mdl-body-alert').text('Message sent successfully');
-        $('#btn-reset-form').click();
-    }else{
-        $('#mdl-body-alert').text('Message sent successfully');
-        $('#btn-reset-form').click();
-    }
+    $('#mdlAlert').modal('show')
+    console.log("Sent:", response.success);
+    $('#mdl-body-alert').text('Message sent successfully');
+    $('#btn-reset-form').click();
   }
 
   onError(err = "") {
