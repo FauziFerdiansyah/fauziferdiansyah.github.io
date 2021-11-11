@@ -67,6 +67,8 @@
 html {
   margin: 0 !important;
   overflow: auto !important;
+  overflow-x: hidden !important;
+  position: relative;
 }
 
 body {
