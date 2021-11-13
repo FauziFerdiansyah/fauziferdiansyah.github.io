@@ -11,7 +11,7 @@ $(document).ready(function() {
       return standIn;
     }
   }
-
+  setInterval(clock, 1000);
   const signal = () => {
     navigator.getBattery().then(function(battery) {
       battery.addEventListener('levelchange', function() {
@@ -22,5 +22,29 @@ $(document).ready(function() {
     });
   }
   //signal();
-  setInterval(clock, 1000);
+
+  // var body_ = $('#app');
+  // body_.append('<button onclick="openFullscreen();" id="fcMode">Fullscreen</button>')
+
+  // $('html').find('body #fcMode').click();
+  
 }); 
+
+function openFullscreen() {
+  var elem = document.getElementById("app");
+  if (
+    document.fullscreenEnabled || /* Standard syntax */
+    document.webkitFullscreenEnabled || /* Safari */
+    document.msFullscreenEnabled /* IE11 */
+  ) {
+   
+    /* Show the element in fullscreen */
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen(); /* Standard syntax */
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+      elem.msRequestFullscreen();
+    }
+  }
+}
