@@ -2598,6 +2598,9 @@ body {
   .desktop-header-3 .nav-link {
     padding: 7px 0;
   }
+  #bubbles_wrap {
+    display: none !important;
+  }
 }
 @media only screen and (max-width: 768px) {
   section.home {
