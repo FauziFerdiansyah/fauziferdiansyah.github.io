@@ -24,6 +24,7 @@
 20. Theme elements
 21. Slick
 22. Responsive
+23. Bubble Particles
 
 */
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap&amp;subset=cyrillic");
@@ -2378,6 +2379,174 @@ body.dark .modal-content {
   width: 10px;
 }
 
+/*=================================================================*/
+/*                      BUBBLE PARTICLE SETTINGS
+/*=================================================================*/
+#bubbles_wrap {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 990;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+@-webkit-keyframes animateBubble {
+  0% {
+    margin-top: 20%
+  }
+  to {
+    margin-top: -30%
+  }
+}
+
+@-moz-keyframes animateBubble {
+  0% {
+    margin-top: 20%
+  }
+  to {
+    margin-top: -30%
+  }
+}
+
+@keyframes animateBubble {
+  0% {
+    margin-top: 20%
+  }
+  to {
+    margin-top: -30%
+  }
+}
+
+@-webkit-keyframes sideWays {
+  0% {
+    margin-left: 0
+  }
+  to {
+    margin-left: 25px
+  }
+}
+
+@-moz-keyframes sideWays {
+  0% {
+    margin-left: 0
+  }
+  to {
+    margin-left: 25px
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0
+  }
+  to {
+    margin-left: 25px
+  }
+}
+
+.x1 {
+  -webkit-animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 6%;
+  top: 45%;
+  width: 9px;
+  height: 9px;
+}
+
+.x2 {
+  -webkit-animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 5%;
+  top: 80%;
+  width: 8px;
+  height: 8px;
+}
+
+.x3 {
+  -webkit-animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 10%;
+  top: 40%;
+  width: 10px;
+  height: 10px;
+}
+
+.x4 {
+  -webkit-animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  left: 20%;
+  top: 0;
+  width: 13px;
+  height: 13px;
+}
+
+.x5 {
+  -webkit-animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 30%;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+.x6 {
+  -webkit-animation: animateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 50%;
+  top: 0;
+  width: 12px;
+  height: 12px;
+}
+
+.x7 {
+  -webkit-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 65%;
+  top: 70%;
+  width: 15px;
+  height: 15px;
+}
+
+.x8 {
+  -webkit-animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  left: 80%;
+  top: 10%;
+  width: 7px;
+  height: 7px;
+}
+
+.x9 {
+  -webkit-animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  left: 90%;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.x10 {
+  -webkit-animation: animateBubble 16s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 16s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 80%;
+  width: 6px;
+  height: 6px;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: none;
+  min-width: 5px;
+  min-height: 5px;
+  background: rgb(255 255 255 / 0.3);
+  /*border: 1px solid rgb(255 255 255 / 0.5);*/
+}
 /*=================================================================*/
 /*                      RESPONSIVE SETTINGS
 /*=================================================================*/
