@@ -856,7 +856,7 @@ section {
 }
 
 section.home {
-  background: var(--dark);
+  /*background: var(--dark);*/
   padding: 0;
   height: 100vh;
   min-height: 100vh;
@@ -2599,6 +2599,9 @@ body {
     padding: 7px 0;
   }
   #bubbles_wrap {
+    display: none !important;
+  }
+  .canvallax {
     display: none !important;
   }
 }
