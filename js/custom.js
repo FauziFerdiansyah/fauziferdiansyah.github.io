@@ -1,1 +1,425 @@
-function _0x3d93(_0x5c622f,_0x3a2324){var _0x42f8a6=_0x42f8();return _0x3d93=function(_0x3d9345,_0x93e097){_0x3d9345=_0x3d9345-0x1e4;var _0x34be8e=_0x42f8a6[_0x3d9345];return _0x34be8e;},_0x3d93(_0x5c622f,_0x3a2324);}(function(_0x42293d,_0x21bcd6){var _0x4b0b6e=_0x3d93,_0x5684e0=_0x42293d();while(!![]){try{var _0x25360d=parseInt(_0x4b0b6e(0x236))/0x1+-parseInt(_0x4b0b6e(0x203))/0x2+parseInt(_0x4b0b6e(0x24f))/0x3+parseInt(_0x4b0b6e(0x249))/0x4*(parseInt(_0x4b0b6e(0x215))/0x5)+parseInt(_0x4b0b6e(0x259))/0x6*(-parseInt(_0x4b0b6e(0x251))/0x7)+parseInt(_0x4b0b6e(0x25d))/0x8+-parseInt(_0x4b0b6e(0x23f))/0x9*(parseInt(_0x4b0b6e(0x221))/0xa);if(_0x25360d===_0x21bcd6)break;else _0x5684e0['push'](_0x5684e0['shift']());}catch(_0x2b897b){_0x5684e0['push'](_0x5684e0['shift']());}}}(_0x42f8,0x259d6));function stars(){var _0x2114ff=_0x3d93;let _0x581dcc=0x14,_0x39d961=document['querySelector'](_0x2114ff(0x20e)),_0x237a48=0x0;while(_0x237a48<_0x581dcc){let _0x302445=document[_0x2114ff(0x223)]('i'),_0x599725=Math[_0x2114ff(0x224)](Math[_0x2114ff(0x20b)]()*window[_0x2114ff(0x1f2)]),_0x2cfb09=Math[_0x2114ff(0x20b)]()*0x1,_0x2851f3=Math['random']()*0x64;_0x302445[_0x2114ff(0x23e)]['left']=_0x599725+'px',_0x302445[_0x2114ff(0x23e)][_0x2114ff(0x211)]=0x1+'px',_0x302445['style'][_0x2114ff(0x1f4)]=0x32+_0x2851f3+'px',_0x302445[_0x2114ff(0x23e)][_0x2114ff(0x245)]=_0x2cfb09+'s',_0x39d961[_0x2114ff(0x24b)](_0x302445),_0x237a48++;}}stars();function count(_0x3bd7ba){var _0x2431dc=_0x3d93,_0x53da9a=parseInt(_0x3bd7ba[_0x2431dc(0x229)](),0xa);_0x3bd7ba[_0x2431dc(0x229)](++_0x53da9a),_0x53da9a!==0x64&&setTimeout(function(){count(_0x3bd7ba);},0x32),_0x53da9a===0x64&&hidePreloader();}function hidePreloader(){var _0x47d884=_0x3d93;$(_0x47d884(0x1f7))[_0x47d884(0x1f5)](0xc8)[_0x47d884(0x1fb)](_0x47d884(0x227)),setTimeout(function(){var _0x623d9a=_0x47d884;$(_0x623d9a(0x229))[_0x623d9a(0x1fd)]('stop-scrolling');},0xe6),$('#bubbles_wrap')[_0x47d884(0x1f5)](0xdc)[_0x47d884(0x212)](_0x47d884(0x227));}count($('#counter-rocket')),$(window)['on']('load',function(){'use strict';var _0xb3328e=_0x3d93;hidePreloader();var _0x324ce0=/Chrome/[_0xb3328e(0x240)](navigator[_0xb3328e(0x1fe)])&&/Google Inc/[_0xb3328e(0x240)](navigator[_0xb3328e(0x24c)]);!_0x324ce0&&(document[_0xb3328e(0x242)]('infinityChrome')[0x0]['style'][_0xb3328e(0x239)]=_0xb3328e(0x1ec),document['getElementsByClassName'](_0xb3328e(0x20a))[0x0]['style'][_0xb3328e(0x239)]=_0xb3328e(0x209));setTimeout(function(){var _0x150991=_0xb3328e;new WOW()[_0x150991(0x228)]();},0x0);var _0x229880=[0xc8,0x190,0x258,0x320,0x3e8,0x4b0,0x578,0x640,0x708,0x7d0],_0x5224b3=_0xb3328e(0x210);$('.blog-item.wow')[_0xb3328e(0x246)](function(_0x1350a9){var _0xc27e29=_0xb3328e;$(this)['attr']('data-wow-delay',typeof _0x229880[_0x1350a9]===_0xc27e29(0x1e4)?_0x5224b3:_0x229880[_0x1350a9]+'ms');}),$(_0xb3328e(0x231))['on'](_0xb3328e(0x202),function(){var _0x37d33b=_0xb3328e,_0x1378ad=this[_0x37d33b(0x23b)];_0x1378ad=_0x55dce6[_0x1378ad]||_0x1378ad,$container[_0x37d33b(0x1ff)]({'filter':_0x1378ad});});var _0x55dce6={'numberGreaterThan50':function(){var _0x451243=_0xb3328e,_0x4fc39c=$(this)['find'](_0x451243(0x1ed))[_0x451243(0x265)]();return parseInt(_0x4fc39c,0xa)>0x32;},'ium':function(){var _0x4b90b9=_0xb3328e,_0xb136c0=$(this)[_0x4b90b9(0x254)](_0x4b90b9(0x1f1))['text']();return _0xb136c0[_0x4b90b9(0x1e7)](/ium$/);}};}),$(function(){'use strict';var _0x515bf5=_0x3d93;$(_0x515bf5(0x264))['on'](_0x515bf5(0x204),function(){var _0x4bface=_0x515bf5;$(_0x4bface(0x252))[_0x4bface(0x248)](_0x4bface(0x260));}),$(_0x515bf5(0x23d))['on'](_0x515bf5(0x204),function(){var _0x59928f=_0x515bf5;$('header.desktop-header-1,\x20main.content,\x20header.mobile-header-1')[_0x59928f(0x1fd)](_0x59928f(0x260));}),$(_0x515bf5(0x24d))['on']('click',function(){var _0xea273e=_0x515bf5;$('header.desktop-header-1,\x20main.content,\x20header.mobile-header-1')['removeClass'](_0xea273e(0x260));}),$(_0x515bf5(0x264))['on'](_0x515bf5(0x204),function(){var _0xbab9f9=_0x515bf5;$(_0xbab9f9(0x1ef))['toggleClass'](_0xbab9f9(0x260));}),$(_0x515bf5(0x22f))['on'](_0x515bf5(0x204),function(){var _0x16db9c=_0x515bf5;$(_0x16db9c(0x1ef))[_0x16db9c(0x1fd)](_0x16db9c(0x260));}),$(_0x515bf5(0x24d))['on'](_0x515bf5(0x204),function(){var _0x55ebce=_0x515bf5;$(_0x55ebce(0x1ef))['removeClass']('open');}),$('a[href^=\x22#\x22]:not([href=\x22#\x22]')['on'](_0x515bf5(0x204),function(_0x436695){var _0xdaec77=_0x515bf5,_0x50a31e=$(this);$(_0xdaec77(0x1e6))['stop']()[_0xdaec77(0x1ee)]({'scrollTop':$(_0x50a31e[_0xdaec77(0x208)](_0xdaec77(0x230)))[_0xdaec77(0x247)]()[_0xdaec77(0x25e)]},0x320,_0xdaec77(0x1f0)),_0x436695[_0xdaec77(0x1ea)]();});if($(_0x515bf5(0x220))[_0x515bf5(0x218)]>0x0)var _0x15aa06=$('.parallax')['get'](0x0),_0x854bda=new Parallax(_0x15aa06,{'relativeInput':!![]});$('.text-rotating')[_0x515bf5(0x205)]({'animation':_0x515bf5(0x1fa),'separator':',','speed':0x9c4,'complete':function(){}}),$(_0x515bf5(0x24d))['addClass'](_0x515bf5(0x1e8)),$(_0x515bf5(0x21c))[_0x515bf5(0x235)]({'target':_0x515bf5(0x22d)}),$(_0x515bf5(0x1fc))['counterUp']({'delay':0xa,'time':0x7d0});if($(_0x515bf5(0x217))[_0x515bf5(0x218)]>0x0)var _0x23576e=new Waypoint({'element':document['getElementsByClassName'](_0x515bf5(0x226)),'handler':function(_0x100f73){var _0x3b5b88=_0x515bf5;$('.progress-bar')[_0x3b5b88(0x246)](function(){var _0x56cb5d=_0x3b5b88,_0x257d0e=$(this)['attr'](_0x56cb5d(0x256))+'%';$(this)['animate']({'width':_0x257d0e},{'easing':'linear'});}),this[_0x3b5b88(0x21e)]();},'offset':'50%'});var _0x35a3f8=document[_0x515bf5(0x242)](_0x515bf5(0x21b));for(var _0x25d362=0x0;_0x25d362<_0x35a3f8[_0x515bf5(0x218)];_0x25d362++){var _0x1322ee=_0x35a3f8[_0x25d362]['getAttribute'](_0x515bf5(0x222));_0x35a3f8[_0x25d362][_0x515bf5(0x23e)][_0x515bf5(0x1f4)]=''+_0x1322ee+'px';}var _0x35a3f8=document[_0x515bf5(0x242)](_0x515bf5(0x225));for(var _0x25d362=0x0;_0x25d362<_0x35a3f8[_0x515bf5(0x218)];_0x25d362++){var _0x37546d=_0x35a3f8[_0x25d362][_0x515bf5(0x22c)](_0x515bf5(0x261));_0x35a3f8[_0x25d362][_0x515bf5(0x23e)][_0x515bf5(0x214)]=''+_0x37546d+'';}$(_0x515bf5(0x23a))['before'](_0x515bf5(0x262)),$(_0x515bf5(0x250))['on']('click',function(){var _0x49ffcb=_0x515bf5,_0x3c1def=$(this)[_0x49ffcb(0x234)](_0x49ffcb(0x23a));_0x3c1def[_0x49ffcb(0x1eb)](0x12c),_0x3c1def[_0x49ffcb(0x257)]()[_0x49ffcb(0x248)](_0x49ffcb(0x201));}),$(window)[_0x515bf5(0x22a)](function(){var _0x43cadd=_0x515bf5;$(this)[_0x43cadd(0x219)]()>=0x15e?$(_0x43cadd(0x20f))['fadeIn'](0xc8):$('#return-to-top')[_0x43cadd(0x1fb)](0xc8);}),$(_0x515bf5(0x20f))['on'](_0x515bf5(0x204),function(_0x3f8fac){var _0x66f880=_0x515bf5;_0x3f8fac[_0x66f880(0x1ea)](),$(_0x66f880(0x258))['animate']({'scrollTop':0x0},0x190);});const _0x240767=async _0x63e3b9=>{var _0x1001ec=_0x515bf5;const _0x4249c0=await fetch(_0x1001ec(0x25f)),_0x5b2391=await _0x4249c0[_0x1001ec(0x1f9)]();var _0x148f7f=0x0;for(let _0x57f12d in _0x5b2391[_0x1001ec(0x21a)]){_0x148f7f+=0x1;if(_0x148f7f<=0x3)$('#blog_data')['append'](_0x1001ec(0x207)+_0x1001ec(0x243)+_0x1001ec(0x206)+_0x1001ec(0x213)+_0x5b2391[_0x1001ec(0x21a)][_0x57f12d]['link']+_0x1001ec(0x233)+_0x1001ec(0x237)+_0x1001ec(0x255)+'<a\x20href=\x22'+_0x5b2391['items'][_0x57f12d][_0x1001ec(0x1e9)]+_0x1001ec(0x233)+_0x1001ec(0x21f)+_0x5b2391['items'][_0x57f12d][_0x1001ec(0x22e)]+_0x1001ec(0x200)+_0x5b2391['items'][_0x57f12d]['title']+'\x22\x20width=\x22100%\x22\x20height=\x22100%\x22\x20/>'+'</a>'+_0x1001ec(0x25b)+'<div\x20class=\x22details\x22>'+_0x1001ec(0x1f6)+_0x5b2391['items'][_0x57f12d]['link']+'\x22\x20target=\x22_blank\x22>'+_0x5b2391[_0x1001ec(0x21a)][_0x57f12d]['title']+_0x1001ec(0x244)+'<ul\x20class=\x22list-inline\x20meta\x20mb-0\x20mt-2\x22>'+_0x1001ec(0x20d)+_0x5b2391[_0x1001ec(0x21a)][_0x57f12d][_0x1001ec(0x216)]+_0x1001ec(0x263)+_0x1001ec(0x20d)+_0x5b2391[_0x1001ec(0x21a)][_0x57f12d][_0x1001ec(0x24e)]+_0x1001ec(0x263)+_0x1001ec(0x1f8)+_0x1001ec(0x25b)+_0x1001ec(0x25b)+'</div>');else return![];}};_0x240767(),document['addEventListener'](_0x515bf5(0x22b),function(_0x42bf10){var _0x112fb0=_0x515bf5;_0x42bf10[_0x112fb0(0x1ea)](),_0x237b3c($(_0x112fb0(0x229)));}),document[_0x515bf5(0x24a)]=function(_0x14fa1f){var _0x539ac6=_0x515bf5;if(event[_0x539ac6(0x25c)]==0x7b)return _0x237b3c($(_0x539ac6(0x229))),![];if(_0x14fa1f[_0x539ac6(0x23c)]&&_0x14fa1f[_0x539ac6(0x1f3)]&&_0x14fa1f['keyCode']=='I'[_0x539ac6(0x1e5)](0x0))return _0x237b3c($('html')),![];if(_0x14fa1f[_0x539ac6(0x23c)]&&_0x14fa1f[_0x539ac6(0x1f3)]&&_0x14fa1f['keyCode']=='C'[_0x539ac6(0x1e5)](0x0))return _0x237b3c($(_0x539ac6(0x229))),![];if(_0x14fa1f[_0x539ac6(0x23c)]&&_0x14fa1f[_0x539ac6(0x1f3)]&&_0x14fa1f[_0x539ac6(0x25c)]=='J'[_0x539ac6(0x1e5)](0x0))return _0x237b3c($('html')),![];if(_0x14fa1f[_0x539ac6(0x23c)]&&_0x14fa1f[_0x539ac6(0x25c)]=='U'['charCodeAt'](0x0))return _0x237b3c($(_0x539ac6(0x229))),![];},document[_0x515bf5(0x25a)]('touchstart',_0x49308e,![]),document[_0x515bf5(0x25a)](_0x515bf5(0x238),_0x1ba131,![]);var _0x2d7f3d=null,_0x7c4db4=null;function _0x4d7718(_0x589a91){var _0x549031=_0x515bf5;return _0x589a91[_0x549031(0x241)]||_0x589a91[_0x549031(0x21d)][_0x549031(0x241)];}function _0x49308e(_0x30c1a7){const _0x416394=_0x4d7718(_0x30c1a7)[0x0];_0x2d7f3d=_0x416394['clientX'],_0x7c4db4=_0x416394['clientY'];};function _0x1ba131(_0x35716f){var _0x1ba2e1=_0x515bf5;if(!_0x2d7f3d||!_0x7c4db4)return;var _0x580efc=_0x35716f['touches'][0x0]['clientX'],_0x5b54ed=_0x35716f[_0x1ba2e1(0x241)][0x0]['clientY'],_0x4ee03a=_0x2d7f3d-_0x580efc,_0x3b78dd=_0x7c4db4-_0x5b54ed;if(Math[_0x1ba2e1(0x20c)](_0x4ee03a)>Math[_0x1ba2e1(0x20c)](_0x3b78dd))_0x4ee03a>0x0?$(_0x1ba2e1(0x1ef))[_0x1ba2e1(0x1fd)](_0x1ba2e1(0x260)):!$(_0x1ba2e1(0x232))[_0x1ba2e1(0x253)](_0x1ba2e1(0x260))&&$('header.desktop-header-2,\x20main.content-2,\x20header.mobile-header-2')[_0x1ba2e1(0x248)](_0x1ba2e1(0x260));else{if(_0x3b78dd>0x0){}else{}}_0x2d7f3d=null,_0x7c4db4=null;};function _0x237b3c(_0x520116){var _0x5526bd=_0x515bf5,_0x21daab=0x64,_0x1dcec3=0xa,_0x4ff601=0x6;for(var _0x15910e=0x0;_0x15910e<_0x4ff601+0x1;_0x15910e++){$(_0x520116)['animate']({'left':_0x15910e%0x2==0x0?_0x1dcec3:_0x1dcec3*-0x1},_0x21daab);}$(_0x520116)[_0x5526bd(0x1ee)]({'left':0x0,'top':0x0},_0x21daab);}});function _0x42f8(){var _0x47b930=['<img\x20src=\x22','.parallax','1301830cJFsVP','data-height','createElement','floor','data-background','skill-item','slow','init','html','scroll','contextmenu','getAttribute','.scrollspy','thumbnail','main.content-2','href','.portfolio-filter-mobile','header.mobile-header-2','\x22\x20target=\x22_blank\x22>','next','scrollspy','129660yxjlrJ','<span\x20class=\x22category\x22>Article</span>','touchmove','display','.submenu','value','ctrlKey','main.content','style','9HNGxCl','test','touches','getElementsByClassName','<div\x20class=\x22blog-item\x20rounded\x20bg-white\x20shadow-dark\x20wow\x20fadeIn\x22>','</a></h3>','animationDuration','each','offset','toggleClass','70204PuXBRa','onkeydown','appendChild','vendor','.vertical-menu\x20li\x20a','author','649644WyNlzN','.vertical-menu\x20li\x20i.switch','21fqRgJj','header.desktop-header-1,\x20main.content,\x20header.mobile-header-1','hasClass','find','</a>','aria-valuenow','parent','body,html','172932ECvpHl','addEventListener','</div>','keyCode','2400728qcgdtK','top','https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40fauzifrd&api_key=htlxn3gibhchbry1v4hxskm2fszhd5ov05yg3xxz','open','data-color','<i\x20class=\x22ion-md-add\x20switch\x22></i>','</li>','.menu-icon\x20button','text','undefined','charCodeAt','html,\x20body','match','nav-link','link','preventDefault','slideToggle','none','.number','animate','header.desktop-header-2,\x20main.content-2,\x20header.mobile-header-2','easeInOutQuad','.name','innerWidth','shiftKey','height','delay','<h3\x20class=\x22my-0\x20title\x22><a\x20href=\x22','.loader-wrapper','</ul>','json','bounceIn','fadeOut','.count','removeClass','userAgent','isotope','\x22\x20alt=\x22','openmenu','change','586262bJYwZm','click','Morphext','<div\x20class=\x22thumb\x22>','<div\x20class=\x22col-md-4\x22>','attr','block','infinity','random','abs','<li\x20class=\x22list-inline-item\x22>','.scene','#return-to-top','200ms','width','fadeIn','<a\x20href=\x22','backgroundColor','5gZrdtb','pubDate','.skill-item','length','scrollTop','items','spacer','body','originalEvent','destroy'];_0x42f8=function(){return _0x47b930;};return _0x42f8();}
+/**
+ * Custom JavaScript for Portfolio Website
+ * Deobfuscated and cleaned version with comments
+ */
+
+// Function to create animated stars background effect
+function stars() {
+    let starCount = 20; // Number of stars to create
+    let container = document.querySelector('body'); // Container for stars
+    let i = 0;
+    
+    // Create stars with random positions and animations
+    while (i < starCount) {
+        let star = document.createElement('i');
+        let randomX = Math.floor(Math.random() * window.innerWidth);
+        let randomDuration = Math.random() * 1;
+        let randomDelay = Math.random() * 100;
+        
+        // Set star position and animation properties
+        star.style.left = randomX + 'px';
+        star.style.width = 1 + 'px';
+        star.style.height = 50 + randomDelay + 'px';
+        star.style.animationDuration = randomDuration + 's';
+        
+        container.appendChild(star);
+        i++;
+    }
+}
+
+// Initialize stars animation
+stars();
+
+// Counter animation function for rocket counter
+function count(element) {
+    let currentValue = parseInt(element.text(), 10);
+    element.text(++currentValue);
+    
+    // Continue counting until 100, then hide preloader
+    if (currentValue !== 100) {
+        setTimeout(function() {
+            count(element);
+        }, 50);
+    }
+    
+    if (currentValue === 100) {
+        hidePreloader();
+    }
+}
+
+// Function to hide the preloader with fade animation
+function hidePreloader() {
+    $('.loader-wrapper').delay(200).fadeOut('slow');
+    
+    setTimeout(function() {
+        $('html').removeClass('stop-scrolling');
+    }, 230);
+    
+    $('#bubbles_wrap').delay(220).width('slow');
+}
+
+// Start the counter animation
+count($('#counter-rocket'));
+
+// Main document ready function
+$(window).on('load', function() {
+    'use strict';
+    
+    // Hide preloader when page loads
+    hidePreloader();
+    
+    // Chrome browser detection for specific styling
+    let isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if (!isChrome) {
+        document.getElementsByClassName('infinityChrome')[0].style.display = 'none';
+        document.getElementsByClassName('.submenu')[0].style.display = 'block';
+    }
+    
+    // Initialize WOW.js animations
+    setTimeout(function() {
+        new WOW().init();
+    }, 0);
+    
+    // Animation delays for blog items
+    let delays = [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000];
+    let defaultDelay = '200ms';
+    
+    $('.blog-item.wow').each(function(index) {
+        $(this).attr('data-wow-delay', typeof delays[index] === 'undefined' ? defaultDelay : delays[index] + 'ms');
+    });
+    
+    // Portfolio filter functionality
+    $('.portfolio-filter-mobile').on('change', function() {
+        let filterValue = this.value;
+        filterValue = filterFunctions[filterValue] || filterValue;
+        $container.isotope({'filter': filterValue});
+    });
+    
+    // Filter functions for portfolio
+    let filterFunctions = {
+        'numberGreaterThan50': function() {
+            let number = $(this).find('.number').text();
+            return parseInt(number, 10) > 50;
+        },
+        'ium': function() {
+            let name = $(this).find('.name').text();
+            return name.match(/ium$/);
+        }
+    };
+});
+
+// Document ready function for UI interactions
+$(function() {
+    'use strict';
+    
+    // Menu toggle functionality for mobile
+    $('.menu-icon button').on('click', function() {
+        $('header.desktop-header-1, main.content, header.mobile-header-1').toggleClass('open');
+    });
+    
+    // Vertical menu interactions
+    $('.vertical-menu li a').on('click', function() {
+        $('header.desktop-header-1, main.content, header.mobile-header-1').removeClass('open');
+    });
+    
+    $('.submenu').on('click', function() {
+        $('header.desktop-header-1, main.content, header.mobile-header-1').removeClass('open');
+    });
+    
+    // Additional menu toggle for different header version
+    $('.menu-icon button').on('click', function() {
+        $('header.desktop-header-2, main.content-2, header.mobile-header-2').toggleClass('open');
+    });
+    
+    $('.vertical-menu li i.switch').on('click', function() {
+        $('header.desktop-header-2, main.content-2, header.mobile-header-2').removeClass('open');
+    });
+    
+    $('.submenu').on('click', function() {
+        $('header.desktop-header-2, main.content-2, header.mobile-header-2').removeClass('open');
+    });
+    
+    // Smooth scrolling for anchor links
+    $('a[href^="#"]:not([href="#"]').on('click', function(event) {
+        let target = $(this);
+        $('html, body').stop().animate({
+            'scrollTop': $(target.attr('href')).offset().top
+        }, 800, 'easeInOutQuad');
+        event.preventDefault();
+    });
+    
+    // Initialize Parallax effect if elements exist
+    if ($('.parallax').length > 0) {
+        let scene = $('.parallax').get(0);
+        let parallax = new Parallax(scene, {'relativeInput': true});
+    }
+    
+    // Initialize text rotation animation
+    $('.text-rotating').Morphext({
+        'animation': 'bounceIn',
+        'separator': ',',
+        'speed': 2500,
+        'complete': function() {}
+    });
+    
+    // Add navigation class
+    $('.submenu').addClass('nav-link');
+    
+    // Initialize scrollspy
+    $('.scrollspy').scrollspy({'target': 'body'});
+    
+    // Initialize counter animation
+    $('.count').counterUp({'delay': 10, 'time': 2000});
+    
+    // Progress bar animation with Waypoint
+    if ($('.skill-item').length > 0) {
+        let waypoint = new Waypoint({
+            'element': document.getElementsByClassName('skill-item'),
+            'handler': function(direction) {
+                $('.progress-bar').each(function() {
+                    let progressWidth = $(this).attr('aria-valuenow') + '%';
+                    $(this).animate({'width': progressWidth}, {'easing': 'linear'});
+                });
+                this.destroy();
+            },
+            'offset': '50%'
+        });
+    }
+    
+    // Set heights for elements with data-height attribute
+    let heightElements = document.getElementsByClassName('spacer');
+    for (let i = 0; i < heightElements.length; i++) {
+        let height = heightElements[i].getAttribute('data-height');
+        heightElements[i].style.height = '' + height + 'px';
+    }
+    
+    // Set background colors for elements with data-color attribute
+    let colorElements = document.getElementsByClassName('data-background');
+    for (let i = 0; i < colorElements.length; i++) {
+        let color = colorElements[i].getAttribute('data-color');
+        colorElements[i].style.backgroundColor = '' + color + '';
+    }
+    
+    // Add switch icon before submenu items
+    $('.submenu').before('<i class="ion-md-add switch"></i>');
+    
+    // Submenu toggle functionality
+    $('.vertical-menu li i.switch').on('click', function() {
+        let submenu = $(this).parent('.submenu');
+        submenu.slideToggle(300);
+        submenu.next().toggleClass('openmenu');
+    });
+    
+    // Return to top button functionality
+    $(window).scroll(function() {
+        if ($(this).scrollTop() >= 350) {
+            $('#return-to-top').fadeIn(200);
+        } else {
+            $('#return-to-top').fadeOut(200);
+        }
+    });
+    
+    // Return to top click handler
+    $('#return-to-top').on('click', function(event) {
+        event.preventDefault();
+        $('body,html').animate({'scrollTop': 0}, 400);
+    });
+    
+    // Fetch and display blog data from Medium RSS feed
+    const fetchBlogData = async function() {
+        try {
+            // Fetch data from RSS2JSON API
+            const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40fauzifrd&api_key=htlxn3gibhchbry1v4hxskm2fszhd5ov05yg3xxz');
+            const data = await response.json();
+            let count = 0;
+            
+            // Display only first 3 blog posts
+            for (let item in data.items) {
+                count += 1;
+                if (count <= 3) {
+                    const blogItem = data.items[item];
+                    
+                    // Extract image from description content
+                    let thumbnail = '';
+                    let hasImage = false;
+                    const imgMatch = blogItem.description.match(/<img[^>]+src="([^">]+)"/);
+                    if (imgMatch) {
+                        thumbnail = imgMatch[1];
+                        hasImage = true;
+                    }
+                    
+                    // Format date to be more readable
+                    const formattedDate = new Date(blogItem.pubDate).toLocaleDateString('id-ID', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+                    
+                    // Create blog item HTML with conditional image and consistent height
+                    let blogHTML = '<div class="col-md-4">' +
+                        '<div class="blog-item rounded bg-white shadow-dark wow fadeIn" style="height: ' + (hasImage ? '300px' : '250px') + '; display: flex; flex-direction: column;">';
+                    
+                    // Add image section only if image exists
+                    if (hasImage) {
+                        blogHTML += '<div class="thumb" style="height: 150px; overflow: hidden;">' +
+                            '<a href="' + blogItem.link + '" target="_blank">' +
+                            '<span class="category">Article</span>' +
+                            '</a>' +
+                            '<a href="' + blogItem.link + '" target="_blank">' +
+                            '<img src="' + thumbnail + '" alt="' + blogItem.title + '" style="width: 100%; height: 100%; object-fit: cover;" />' +
+                            '</a>' +
+                            '</div>';
+                    }
+                    
+                    // Add details section with flex-grow to fill remaining space
+                    blogHTML += '<div class="details" style="flex-grow: 1; padding: ' + (hasImage ? '20px' : '30px') + '; display: flex; flex-direction: column; justify-content: space-between;">' +
+                        '<h3 class="my-0 title" style="font-size: ' + (hasImage ? '1.1rem' : '1rem') + '; line-height: 1.4; word-wrap: break-word;display: -webkit-box;overflow: hidden;text-overflow: ellipsis;line-clamp: 3;-webkit-line-clamp: 3;-webkit-box-orient: vertical;">' +
+                        '<a href="' + blogItem.link + '" target="_blank" style="text-decoration: none; color: inherit;">' +
+                        blogItem.title +
+                        '</a></h3>' +
+                        '<ul class="list-inline meta mb-0 mt-auto" style="font-size: 0.85rem;">' +
+                        '<li class="list-inline-item">' + blogItem.author + '</li>' +
+                        '<li class="list-inline-item">' + formattedDate + '</li>' +
+                        '</ul>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>';
+                    
+                    // Append to DOM
+                    $('#blog_data').append(blogHTML);
+                }
+            }
+            
+        } catch (error) {
+            console.error('Error fetching blog data:', error);
+            
+            // Fallback: Display static blog items if API fails
+            $('#blog_data').append(
+                '<div class="col-md-4">' +
+                '<div class="blog-item rounded bg-white shadow-dark wow fadeIn" style="height: 250px; display: flex; flex-direction: column;">' +
+                '<div class="details" style="flex-grow: 1; padding: 30px; display: flex; flex-direction: column; justify-content: space-between;">' +
+                '<h3 class="my-0 title" style="font-size: 1rem; line-height: 1.4; margin-bottom: 15px;">' +
+                '<a href="https://fauzifrd.medium.com" target="_blank" style="text-decoration: none; color: inherit;">' +
+                'Kunjungi Blog Medium Saya' +
+                '</a></h3>' +
+                '<ul class="list-inline meta mb-0 mt-auto" style="font-size: 0.85rem; color: #666;">' +
+                '<li class="list-inline-item">Fauzi Ferdiansyah</li>' +
+                '<li class="list-inline-item">Medium Blog</li>' +
+                '</ul>' +
+                '</div>' +
+                '</div>' +
+                '</div>'
+            );
+        }
+    };
+    
+    // Execute blog data fetch
+    fetchBlogData();
+    
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(event) {
+        event.preventDefault();
+        shakeElement($('html'));
+    });
+    
+    // Disable developer tools keyboard shortcuts
+    document.onkeydown = function(event) {
+        // F12 key
+        if (event.keyCode == 123) {
+            shakeElement($('html'));
+            return false;
+        }
+        // Ctrl+Shift+I (Developer Tools)
+        if (event.ctrlKey && event.shiftKey && event.keyCode == 'I'.charCodeAt(0)) {
+            shakeElement($('html'));
+            return false;
+        }
+        // Ctrl+Shift+C (Inspect Element)
+        if (event.ctrlKey && event.shiftKey && event.keyCode == 'C'.charCodeAt(0)) {
+            shakeElement($('html'));
+            return false;
+        }
+        // Ctrl+Shift+J (Console)
+        if (event.ctrlKey && event.shiftKey && event.keyCode == 'J'.charCodeAt(0)) {
+            shakeElement($('html'));
+            return false;
+        }
+        // Ctrl+U (View Source)
+        if (event.ctrlKey && event.keyCode == 'U'.charCodeAt(0)) {
+            shakeElement($('html'));
+            return false;
+        }
+    };
+    
+    // Touch event handlers for mobile swipe detection
+    document.addEventListener('touchstart', handleTouchStart, false);
+    document.addEventListener('touchmove', handleTouchMove, false);
+    
+    let xDown = null;
+    let yDown = null;
+    
+    // Get touch coordinates
+    function getTouches(event) {
+        return event.touches || event.originalEvent.touches;
+    }
+    
+    // Handle touch start event
+    function handleTouchStart(event) {
+        const firstTouch = getTouches(event)[0];
+        xDown = firstTouch.clientX;
+        yDown = firstTouch.clientY;
+    }
+    
+    // Handle touch move event for swipe detection
+    function handleTouchMove(event) {
+        if (!xDown || !yDown) {
+            return;
+        }
+        
+        let xUp = event.touches[0].clientX;
+        let yUp = event.touches[0].clientY;
+        let xDiff = xDown - xUp;
+        let yDiff = yDown - yUp;
+        
+        // Determine swipe direction
+        if (Math.abs(xDiff) > Math.abs(yDiff)) {
+            if (xDiff > 0) {
+                // Left swipe - close menu
+                $('header.desktop-header-2, main.content-2, header.mobile-header-2').removeClass('open');
+            } else {
+                // Right swipe - open menu if not already open
+                if (!$('header.desktop-header-1, main.content, header.mobile-header-1').hasClass('open')) {
+                    $('header.desktop-header-2, main.content-2, header.mobile-header-2').toggleClass('open');
+                }
+            }
+        } else {
+            if (yDiff > 0) {
+                // Up swipe
+            } else {
+                // Down swipe
+            }
+        }
+        
+        // Reset values
+        xDown = null;
+        yDown = null;
+    }
+    
+    // Shake animation function for security warnings
+    function shakeElement(element) {
+        let duration = 100;
+        let distance = 10;
+        let times = 6;
+        
+        for (let i = 0; i < times + 1; i++) {
+            $(element).animate({
+                'left': i % 2 == 0 ? distance : distance * -1
+            }, duration);
+        }
+        
+        $(element).animate({
+            'left': 0,
+            'top': 0
+        }, duration);
+    }
+});
